@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../src/index.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/jquery.cookie/jquery.cookie.js"></script>
+    <script src="../src/index.js"></script>
+    <style>
+        .header {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .header:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .btn-home {
+            transition: transform 0.2s ease;
+        }
+
+        .btn-home:hover {
+            transform: scale(1.1);
+        }
+
+        .section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            margin-top: 30px;
+            min-height: 200px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 15px !important;
+            }
+            
+            .section {
+                margin: 15px;
+                padding: 15px;
+            }
+            
+            h4 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header class="p-2 header text-center mt-2">
+        <h4>
+            <button id="btn-home" class="btn btn-outline-primary btn-home bi bi-house-door me-2"></button>
+            Your Task Manager
+        </h4>
+    </header>
+    <section class="mt-4 section">
+        <!-- Your content can go here -->
+    </section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+$themeColor : rgb(0, 0, 0);
+$bgcolor : rgb(255, 255, 255);
+$themeSpace : 20px;
+
+@mixin box-model($borderColor, $bgcolor, $space)
+{
+    border: 4px solid $borderColor;
+    background-color: $bgcolor;
+    padding: $space;
+    border-radius: $space;
+}
+
+.alert {
+    @include box-model(rgb(255, 255, 255), rgb(207, 241, 207), 20px);
+    h2 {
+        color:$themeColor;
+    }
+    p {
+        color:$themeColor;
+    }
+    a {
+        text-decoration: none;
+        color:$themeColor;
+    }
+    button {
+        margin-top: $themeSpace;
+        padding: 5px;
+        background-color: $themeColor;
+        color:white;
+        border:none;
+        width: 50px;
+    }
+}

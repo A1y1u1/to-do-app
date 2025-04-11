@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_nit",
+      "password": "john@11",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "3ee6",
+      "username": "Ayush@123",
+      "password": "Ayush@123",
+      "email": "AYUSHMESHRAM155@GMAIL.COM"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "049d",
+      "title": "Ayush Meet",
+      "description": "asdfghjkl",
+      "date": "2025-04-14",
+      "username": "Ayush@123"
+    },
+    {
+      "id": "aab0",
+      "title": "Ayush Meeting ",
+      "description": "Ayush is a Depth Knowlege ",
+      "date": "2025-04-30",
+      "username": "john_nit"
+    },
+    {
+      "id": "af5d",
+      "title": "Sunny Company ",
+      "description": "Meeting",
+      "date": "2024-04-05",
+      "username": "john_nit"
+    }
+  ]
+}
